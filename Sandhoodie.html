@@ -1,0 +1,140 @@
+<!--DOCTYPE html-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==Title============================-->
+    <title>Product Page | Medellín Clo</title>
+    <!--==CSS==============================-->
+    <link rel="stylesheet" href="css/style2.css"/>
+    <!--==Javascript=======================-->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+    <!--==Poppins-font=====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Using-Font-Awesome-for-Icons=====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+
+    <!--==Product-Page=================================-->
+    <section id="product-page">
+    <div class="product-details">
+        <!--**Img*************************-->
+        <div class="product-img">
+
+        <!-- Swiper Slider -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            
+            <!--**1******-->
+            <div class="swiper-slide">
+                <img src="img/beigeaan.jpg" />
+            </div>
+            <!--**2******-->
+            <div class="swiper-slide">
+                <img src="img/beigevasthouden.jpg" />
+            </div>
+            <!--**3******-->
+            <div class="swiper-slide">
+                <img src="img/Mo2hoodies.jpg" />
+            </div>
+            <!--**4******-->
+            <div class="swiper-slide">
+                <img src="img/beigeaanzwartwit.jpg" />
+            </div>
+
+            </div>
+
+            <!--btns-->
+            <div class="slider-btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+
+            <!--social-->
+            <div class="img-social-bar">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+        <!--**Text************************-->
+        <div class="product-text">
+            <!--category-->
+            <span class="product-category">Hoodies</span>
+            <h3>Sand Oversized Medellín Clo Hoodie</h3>
+            <span class="product-price">€70</span>
+            <p>Our Medellín Hoodie is made with Heavy Cotton and has 460 gsm. This gives you the confidence and comfort you deserve.
+                <br/><br>
+                1-3 working days (shipping)
+            </p>
+            <!--size-->
+            <div class="product-size-container">
+                <strong>Select Size:-</strong>
+                <div class="product-size">
+                    
+                    <!--Small-->
+                    <input type="checkbox" class="s-checkbox" id="s-s">
+                    <label for="s-s" class="s-label">S</label>
+                    <!--Medium-->
+                    <input type="checkbox" class="s-checkbox" id="s-m">
+                    <label for="s-m" class="s-label">M</label>
+                    <!--Large-->
+                    <input type="checkbox" class="s-checkbox" id="s-l">
+                    <label for="s-l" class="s-label">L</label>
+                    <!--xl-->
+                    <input type="checkbox" class="s-checkbox" id="s-xl">
+                    <label for="s-xl" class="s-label">XL</label>
+                </div>
+            </div>
+
+            <!--btn-->
+            <div class="product-button">
+                
+                <script async src="https://js.stripe.com/v3/buy-button.js">
+               </script>
+
+              <stripe-buy-button
+               buy-button-id="buy_btn_1MrkF1F07riFAyRfEGd0GSzG"
+                publishable-key="pk_live_51MpvImF07riFAyRf12XKF1johd6Woeg1IscEJjvKnKFvUfAWZHKcUsPXBD8tQ9jHXskpyzzQ3UdVjske0IUN9F3i00SZfWudep">
+</stripe-buy-button>
+            </div>
+            <!--help-btn-->
+            <a href="#" class="help-btn">Need Any Help?</a>
+        </div>
+    </div>
+    </section>
+
+    <!--==Jquery===========================-->
+  
+
+    <!-- Swiper JS -->
+
+    <!-- Initialize Swiper -->
+    <script>
+      
+    </script>
+</body>
+
+
+       <script src="JqueryCdnFiles/jquery-3.6.0.js"></script>
+       <script src="bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+       <script src="script.js"></script>
+ 
+   <footer class="flex-all-center">
+       <p>Copyright &copy; ZMM.com </p>
+   </footer>
