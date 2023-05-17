@@ -225,7 +225,7 @@ height:30px;
 }
 
 i{
-size-adjust: large;
+font-size: 50px;
 color: #04AA6D;
 }
 
@@ -280,16 +280,17 @@ footer{
 
 }
 .About {
-    padding: 25px;
-    height:444px;
+    padding: 50px;
     text-align: center;
     color: #ddd;
     font-family: 'Lato';
 
 }
 
-.fa-brands {
-  size: 10px;
+.fa-brands fa-instagram {
+  size: 1000px;
+  font-size: 50px;
+  font-weight: 50px;
 }
 
 *,
@@ -318,6 +319,7 @@ h1 {
 }
  h3 {
   color: #a4a1a1;
+  padding-top: 44px;
  }
 p {
   color: #f2f2f2;
